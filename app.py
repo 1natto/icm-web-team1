@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import os
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -14,6 +15,7 @@ def submit():
     folderpath = "./code"
     prewritten_tag  = ".cpp"
     user_filename = "chonphong"
+    round_name = "1"
     filename = user_filename + prewritten_tag
     fullpath = os.path.join(folderpath,filename)
     filepath = os.path.join(folderpath,name)
@@ -23,4 +25,8 @@ def submit():
     with open(os.path.join(filepath, filename), "w") as f:
         full_txt = code
         f.write(full_txt)
+    with open(os.path.join(filepath, round_name), "w") as v:
+        txt = datetime.now()
+        v.write(str(txt))
     return render_template("submit.html")
+
