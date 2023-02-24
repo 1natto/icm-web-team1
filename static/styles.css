@@ -4,18 +4,18 @@
 
 @media (max-width: 720px) {
   body {
-    background-image:url('icm-mb1.png');
+    background-image:url('icm-official1mb.png');
   }
 }
 
 @media (min-width: 721px) {
   body {
-    background-image:url('icm-pc1.png');
+    background-image:url('icm-official1mt.png');
   }
 }
 
 body {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Arimo', sans-serif;
     background-color: #212121;
     color: white;
     font-size: 150%;
@@ -69,13 +69,13 @@ body {
         padding: 5% 7%;
         top: 0;
         cursor: pointer;
-        margin:1rem 3rem;
+        margin:1rem 1rem;
         border: none;
   }
 
    .btn-1:active {
               top: 6%;
-              box-shadow: 0 0.1vh 0rem #91281d;
+              box-shadow: 0 0.1vh 0rem #a6b072;
               transition: all .2s;
           }
       .rotate{
