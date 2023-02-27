@@ -7,35 +7,61 @@
     background-image:url('icm-official1mb.png');
     /* font-size: 115%; */
   }
+  #thaophuongne {
+    margin-left:8%;
+    margin-right:8%;
+  }
   #dha {
     font-size: 31px;
     line-height: 150%;
+    margin-left:8%;
+    margin-right:8%;
   }
   #phamhongthang {
     line-height: 150%;
-    font-size: 24px;
+    font-size: 22px;
+    margin-left:8%;
+    margin-right:8%;
   }
   #hoangphuck {
     line-height: 140%;
     font-size: 31px;
+    margin-left:8%;
+    margin-right:8%;
   }
   #giabaott {
     line-height: 150%;
     font-size:  20px;
     margin-top: -5px;
+    margin-left:8%;
+    margin-right:8%;
   }
   #phuclam10hp {
     line-height: 150%;
     font-size:  36px;
+    margin-left:8%;
+    margin-right:8%;
   }
   #nguyenhongnhung {
-    font-size:  32px;
+    font-size:  30px;
+    margin-left:4.5%;
+    margin-right:4.5%;
   }
   #quynhanhhoangg {
     font-size:  36px;
+    margin-left:8%;
+    margin-right:8%;
   }
   #linhs {
-    font-size:  16px;
+    font-size:  29.2px;
+    margin-left:4.5%;
+    margin-right:4.5%;
+  }
+  #cmtri {
+    font-size: 31px;
+    line-height: 150%;
+    margin-left:0%;
+    margin-right:0%;
   }
 }
 
