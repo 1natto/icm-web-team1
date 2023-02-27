@@ -153,7 +153,7 @@ def quynhanhhoangg1():
     return render_template("quynhanhhoangg1.html")
 
 #------------linh.s
-
+#1
 @app.route("/bGluaC5zCg==/", methods=['GET'])
 def linhs1():
     return render_template("linhs1.html")
@@ -166,6 +166,69 @@ def linhs3():
 @app.route("/bGluaC5zCg==3/", methods=['GET'])
 def linhs4():
     return render_template("linhs4.html")
+#2
+@app.route("/bGluaC5zCg==4/", methods=['GET'])
+def linhs5():
+    return render_template("linhs5.html")
+@app.route("/bGluaC5zCg==5/", methods=['GET'])
+def linhs6():
+    return render_template("linhs6.html")
+@app.route("/bGluaC5zCg==6/", methods=['GET'])
+def linhs7():
+    return render_template("linhs7.html")
+@app.route("/bGluaC5zCg==7/", methods=['GET'])
+def linhs8():
+    return render_template("linhs8.html")
+
+#---------nhaminh1707
+@app.route("/bmhhbWluaAo=/", methods=['GET'])
+def nhaminh1():
+    return render_template("nhaminh1.html")
+
+#-------quannamkhanh
+@app.route("/cXVhbm5hbWtoYW5o/", methods=['GET'])
+def quannamkhanh1():
+    return render_template("quannamkhanh1.html")
+@app.route("/cXVhbm5hbWtoYW5o1/", methods=['GET'])
+def quannamkhanh2():
+    return render_template("quannamkhanh2.html")
+
+#---------tatuanthanh 1+2+3
+
+@app.route("/dGF0dWFudGhhbmg=/", methods=['GET'])
+def tatuanthanh1():
+    return render_template("tatuanthanh1.html")
+@app.route("/dGF0dWFudGhhbmg=1/", methods=['GET'])
+def tatuanthanh2():
+    return render_template("tatuanthanh2.html")
+@app.route("/dGF0dWFudGhhbmg=2/", methods=['GET'])
+def tatuanthanh3():
+    return render_template("tatuanthanh3.html")
+@app.route("/dGF0dWFudGhhbmg=3/", methods=['GET'])
+def tatuanthanh4():
+    return render_template("tatuanthanh4.html")
+@app.route("/dGF0dWFudGhhbmg=4/", methods=['GET'])
+def tatuanthanh5():
+    return render_template("tatuanthanh5.html")
+@app.route("/dGF0dWFudGhhbmg=5/", methods=['GET'])
+def tatuanthanh6():
+    return render_template("tatuanthanh6.html")
+
+#------canoc1822007
+
+@app.route("/Y2Fub2MxODIyMDA3/", methods=['GET'])
+def canoc1():
+    return render_template("canoc1.html")
+
+#-------nganv
+
+@app.route("/bmdhbnY=/", methods=['GET'])
+def nganv1():
+    return render_template("nganv1.html")
+@app.route("/bmdhbnY=1/", methods=['GET'])
+def nganv2():
+    return render_template("nganv2.html")
+
 
 if __name__ == '__main__':
    app.run()
