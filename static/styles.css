@@ -5,7 +5,37 @@
 @media only screen and (max-width: 641px) {
   body {
     background-image:url('icm-official1mb.png');
-    font-size: 115%;
+    /* font-size: 115%; */
+  }
+  #dha {
+    font-size: 31px;
+    line-height: 150%;
+  }
+  #phamhongthang {
+    line-height: 150%;
+    font-size: 24px;
+  }
+  #hoangphuck {
+    line-height: 140%;
+    font-size: 31px;
+  }
+  #giabaott {
+    line-height: 150%;
+    font-size:  20px;
+    margin-top: -5px;
+  }
+  #phuclam10hp {
+    line-height: 150%;
+    font-size:  36px;
+  }
+  #nguyenhongnhung {
+    font-size:  32px;
+  }
+  #quynhanhhoangg {
+    font-size:  36px;
+  }
+  #linhs {
+    font-size:  16px;
   }
 }
 
@@ -14,6 +44,11 @@
     background-image:url('icm-officialmt6.png');
     font-size: 150%;
   }
+  #dha {
+    font-size: 155%;
+    line-height: 140%;
+  }
+
 }
 
 body {
@@ -56,7 +91,6 @@ body {
     margin-left:auto;
     margin-right:auto;
 
-
   }
   .btn-1 {
         background: #d7e593;
@@ -67,7 +101,7 @@ body {
         display: inline-block;
         transition: all .2s;
         position: relative;
-        padding: 2.8% 4.8%;
+        padding: 3% 5%;
         top: 0;
         cursor: pointer;
         margin:1rem 1rem;
@@ -108,3 +142,5 @@ body {
       margin:0;
       font-size: 210%;
     }
+
+
