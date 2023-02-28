@@ -2,31 +2,114 @@
   margin: 0;
 }
 
-@media (max-width: 720px) {
+@media only screen and (max-width: 641px) {
   body {
     background-image:url('icm-official1mb.png');
-    font-size: 110%;
+    /* font-size: 115%; */
+  }
+
+  #k44h {
+    line-height: 150%;
+    font-size: 18px;
+    margin-left:8%;
+    margin-right:8%;
+  }
+  #thaophuongne {
+    margin-left:8%;
+    margin-right:8%;
+  }
+  #dha {
+    font-size: 31px;
+    line-height: 150%;
+    margin-left:8%;
+    margin-right:8%;
+  }
+  #phamhongthang {
+    line-height: 150%;
+    font-size: 22px;
+    margin-left:8%;
+    margin-right:8%;
+  }
+  #hoangphuck {
+    line-height: 140%;
+    font-size: 31px;
+    margin-left:8%;
+    margin-right:8%;
+  }
+  #giabaott {
+    line-height: 150%;
+    font-size: 17px;
+    margin-left:8%;
+    margin-right:8%;
+  }
+  #phuclam10hp {
+    line-height: 150%;
+    font-size:  36px;
+    margin-left:8%;
+    margin-right:8%;
+  }
+  #nguyenhongnhung {
+    font-size:  30px;
+    margin-left:4.5%;
+    margin-right:4.5%;
+  }
+  #nguyenhongnhung1 {
+    font-size:  30px;
+    margin-left:6%;
+    margin-right:6%;
+  }
+  #quynhanhhoangg {
+    font-size:  36px;
+    margin-left:8%;
+    margin-right:8%;
+  }
+  #linhs {
+    font-size:  29.2px;
+    margin-left:4.5%;
+    margin-right:4.5%;
+  }
+  #cmtri {
+    font-size: 31px;
+    line-height: 150%;
+    margin-left:0%;
+    margin-right:0%;
+  }
+  form {
+    text-align:center;
+    margin-top:6.8rem;
+    margin-left:auto;
+    margin-right:auto;
   }
 }
 
-@media (min-width: 721px) {
+@media only screen and (min-width: 642px) {
   body {
-    background-image:url('icm-official1mt.png');
-    font-size: 150%;
+    background-image:url('icm-officialmt6.png');
+    font-size: 110%;
   }
+  #dha {
+    font-size: 145%;
+    line-height: 140%;
+  }
+  form {
+    text-align:center;
+    margin-top:13.8rem;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+
 }
 
 body {
     font-family: 'Arimo', sans-serif;
     background-color: #212121;
     color: white;
-
     font-weight: 460;
     line-height: 1.5;
     margin: 0;
-    margin-top:2px;
     display: flex;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size: 100% 100%;
@@ -51,24 +134,17 @@ body {
   #name {
     max-width: 40%;
   }
-  form {
-    text-align:center;
-    margin-top:10rem;
-    margin-left:auto;
-    margin-right:auto;
 
-
-  }
   .btn-1 {
         background: #d7e593;
-        font-size: 110%;
+        font-size: 120%;
         color: #246b56;
         border-radius: 7%;
         box-shadow: 0 0.7vh 0rem #a6b072;
         display: inline-block;
         transition: all .2s;
         position: relative;
-        padding: 5% 7%;
+        padding: 3% 5%;
         top: 0;
         cursor: pointer;
         margin:1rem 1rem;
@@ -109,3 +185,6 @@ body {
       margin:0;
       font-size: 210%;
     }
+
+
+

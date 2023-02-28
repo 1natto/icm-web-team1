@@ -12,17 +12,16 @@
 
         if (detectMob() == false) {
               $('#btn-2').animate({
-              'top' : Math.round(Math.random() * 50) + 15 + "vh",
-              'left': Math.round(Math.random() * 30) + 10 + "vh"
+              'top' : Math.round(Math.random() * (50 - 24 + 1)) + 24 + "vh",
+              'left': Math.round(Math.random() * (30 - 17 + 1)) + 17 + "vh"
             }, "fast");
           }
           else if (detectMob() == true) {
             $('#btn-2').animate({
-              'top' : Math.round(Math.random() * 150) + 100 + '%',
-              'left': Math.round(Math.random() * 30) + 40 + "%"
+              'top' : Math.round(Math.random() * (32 - 22 + 1)) + 22 + "vh",
+              'left': Math.round(Math.random() * (23 - 12 + 1)) + 12 + "vh"
             }, "fast");
           }
-
         }
 
 
