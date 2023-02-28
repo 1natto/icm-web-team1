@@ -7,6 +7,13 @@
     background-image:url('icm-official1mb.png');
     /* font-size: 115%; */
   }
+
+  #k44h {
+    line-height: 150%;
+    font-size: 18px;
+    margin-left:8%;
+    margin-right:8%;
+  }
   #thaophuongne {
     margin-left:8%;
     margin-right:8%;
@@ -31,7 +38,7 @@
   }
   #giabaott {
     line-height: 150%;
-    font-size: 16px;
+    font-size: 17px;
     margin-left:8%;
     margin-right:8%;
   }
@@ -178,5 +185,6 @@ body {
       margin:0;
       font-size: 210%;
     }
+
 
 

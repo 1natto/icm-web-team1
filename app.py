@@ -229,6 +229,110 @@ def nganv1():
 def nganv2():
     return render_template("nganv2.html")
 
+#---------damquangduy
+
+@app.route("/ZGFtcXVhbmdkdXk==/", methods=['GET'])
+def damquangduy1():
+    return render_template("damquangduy1.html")
+@app.route("/ZGFtcXVhbmdkdXk==1/", methods=['GET'])
+def damquangduy2():
+    return render_template("damquangduy2.html")
+@app.route("/ZGFtcXVhbmdkdXk==2/", methods=['GET'])
+def damquangduy3():
+    return render_template("damquangduy3.html")
+@app.route("/ZGFtcXVhbmdkdXk==3/", methods=['GET'])
+def damquangduy4():
+    return render_template("damquangduy4.html")
+
+#-------nguyentuongvi
+
+@app.route("/bmd1eWVudHVvbmd2aQ==/", methods=['GET'])
+def nguyentuongvi1():
+    return render_template("nguyentuongvi1.html")
+@app.route("/bmd1eWVudHVvbmd2aQ==1/", methods=['GET'])
+def nguyentuongvi2():
+    return render_template("nguyentuongvi2.html")
+@app.route("/bmd1eWVudHVvbmd2aQ==2/", methods=['GET'])
+def nguyentuongvi3():
+    return render_template("nguyentuongvi3.html")
+@app.route("/bmd1eWVudHVvbmd2aQ==3/", methods=['GET'])
+def nguyentuongvi4():
+    return render_template("nguyentuongvi4.html")
+
+#-----quochung06hp
+
+#1
+@app.route("/cXVvY2h1bmcwNmhw/", methods=['GET'])
+def quochung06hp1():
+    return render_template("quochung06hp1.html")
+@app.route("/cXVvY2h1bmcwNmhw1/", methods=['GET'])
+def quochung06hp2():
+    return render_template("quochung06hp2.html")
+@app.route("/cXVvY2h1bmcwNmhw2/", methods=['GET'])
+def quochung06hp3():
+    return render_template("quochung06hp3.html")
+@app.route("/cXVvY2h1bmcwNmhw3/", methods=['GET'])
+def quochung06hp4():
+    return render_template("quochung06hp4.html")
+
+#2
+@app.route("/cXVvY2h1bmcwNmhw4/", methods=['GET'])
+def quochung06hp5():
+    return render_template("quochung06hp5.html")
+@app.route("/cXVvY2h1bmcwNmhw5/", methods=['GET'])
+def quochung06hp6():
+    return render_template("quochung06hp6.html")
+@app.route("/cXVvY2h1bmcwNmhw6/", methods=['GET'])
+def quochung06hp7():
+    return render_template("quochung06hp7.html")
+@app.route("/cXVvY2h1bmcwNmhw7/", methods=['GET'])
+def quochung06hp8():
+    return render_template("quochung06hp8.html")
+
+#-------hanhoahau5
+
+@app.route("/aGFuaG9haGF1NQ==/", methods=['GET'])
+def hanhoahau51():
+    return render_template("hanhoahau51.html")
+@app.route("/aGFuaG9haGF1NQ==1/", methods=['GET'])
+def hanhoahau52():
+    return render_template("hanhoahau52.html")
+@app.route("/aGFuaG9haGF1NQ==2/", methods=['GET'])
+def hanhoahau53():
+    return render_template("hanhoahau53.html")
+@app.route("/aGFuaG9haGF1NQ==3/", methods=['GET'])
+def hanhoahau54():
+    return render_template("hanhoahau54.html")
+
+#-----dxtruonganh
+
+@app.route("/ZHh0cnVvbmdhbmg=/", methods=['GET'])
+def dxtruonganh1():
+    return render_template("dxtruonganh1.html")
+
+#--------duongmocnhien
+
+@app.route("/ZHVvbmdtb2NuaGllbg==/", methods=['GET'])
+def duongmocnhien1():
+    return render_template("duongmocnhien1.html")
+@app.route("/ZHVvbmdtb2NuaGllbg==1/", methods=['GET'])
+def duongmocnhien2():
+    return render_template("duongmocnhien2.html")
+
+#------trannhannhatminh
+
+@app.route("/dHJhbm5oYW5uaGF0bWluaA==/", methods=['GET'])
+def trannhannhatminh1():
+    return render_template("trannhannhatminh1.html")
+@app.route("/dHJhbm5oYW5uaGF0bWluaA==1/", methods=['GET'])
+def trannhannhatminh2():
+    return render_template("trannhannhatminh2.html")
+@app.route("/dHJhbm5oYW5uaGF0bWluaA==2/", methods=['GET'])
+def trannhannhatminh3():
+    return render_template("trannhannhatminh3.html")
+@app.route("/dHJhbm5oYW5uaGF0bWluaA==3/", methods=['GET'])
+def trannhannhatminh4():
+    return render_template("trannhannhatminh4.html")
 
 if __name__ == '__main__':
    app.run()
