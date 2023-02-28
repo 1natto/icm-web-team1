@@ -334,5 +334,12 @@ def trannhannhatminh3():
 def trannhannhatminh4():
     return render_template("trannhannhatminh4.html")
 
+
+#-------lyphan
+
+@app.route("/bHlwaGFu/", methods=['GET'])
+def lyphan1():
+    return render_template("lyphan1.html")
+
 if __name__ == '__main__':
    app.run()
