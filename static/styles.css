@@ -8,6 +8,13 @@
     /* font-size: 115%; */
   }
 
+  #ngocquang {
+    font-size: 17px;
+    line-height: 140%;
+    margin-left:8%;
+    margin-right:8%;
+  }
+
   #k44h {
     line-height: 150%;
     font-size: 18px;
@@ -76,7 +83,7 @@
   }
   form {
     text-align:center;
-    margin-top:7.2rem;
+    margin-top:7.8rem;
     margin-left:auto;
     margin-right:auto;
   }
@@ -93,6 +100,10 @@
   }
   #k44h {
     font-size: 100%;
+    line-height: 140%;
+  }
+  #ngocquang {
+    font-size: 135%;
     line-height: 140%;
   }
   form {
