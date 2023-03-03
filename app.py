@@ -142,9 +142,14 @@ def cmtri2():
 
 #--------nguyenhongnhung
 
+#1
 @app.route("/bmd1eWVuaG9uZ25odW5nIAo=/", methods=['GET'])
 def nguyenhongnhung1():
     return render_template("nguyenhongnhung1.html")
+#2
+@app.route("/bmd1eWVuaG9uZ25odW5nIAo=1/", methods=['GET'])
+def nguyenhongnhung2():
+    return render_template("nguyenhongnhung2.html")
 
 #------------quynhanhhoangg
 
@@ -245,6 +250,7 @@ def nganv2():
 
 #---------damquangduy
 
+#1
 @app.route("/ZGFtcXVhbmdkdXk==/", methods=['GET'])
 def damquangduy1():
     return render_template("damquangduy1.html")
@@ -257,6 +263,14 @@ def damquangduy3():
 @app.route("/ZGFtcXVhbmdkdXk==3/", methods=['GET'])
 def damquangduy4():
     return render_template("damquangduy4.html")
+
+#2
+@app.route("/ZGFtcXVhbmdkdXk==4/", methods=['GET'])
+def damquangduy5():
+    return render_template("damquangduy5.html")
+@app.route("/ZGFtcXVhbmdkdXk==5/", methods=['GET'])
+def damquangduy8():
+    return render_template("damquangduy8.html")
 
 #-------nguyentuongvi
 
@@ -462,6 +476,117 @@ def vanhatrinh2():
 @app.route("/ZG9uZ29jbWluaA==/", methods=['GET'])
 def dongocminh1():
     return render_template("dongocminh1.html")
+
+#------ngocquang25
+
+@app.route("/bmdvY3F1YW5nMjU=/", methods=['GET'])
+def ngocquang251():
+    return render_template("ngocquang251.html")
+@app.route("/bmdvY3F1YW5nMjU=1/", methods=['GET'])
+def ngocquang252():
+    return render_template("ngocquang252.html")
+
+#-------iamlunastarry
+
+@app.route("/aWFtbHVuYXN0YXJyeQ==/", methods=['GET'])
+def iamlunastarry1():
+    return render_template("iamlunastarry1.html")
+@app.route("/aWFtbHVuYXN0YXJyeQ==1/", methods=['GET'])
+def iamlunastarry2():
+    return render_template("iamlunastarry2.html")
+@app.route("/aWFtbHVuYXN0YXJyeQ==2/", methods=['GET'])
+def iamlunastarry3():
+    return render_template("iamlunastarry3.html")
+@app.route("/aWFtbHVuYXN0YXJyeQ==3/", methods=['GET'])
+def iamlunastarry4():
+    return render_template("iamlunastarry4.html")
+
+#-------thanhdattranphu
+
+@app.route("/dGhhbmhkYXR0cmFucGh1/", methods=['GET'])
+def thanhdattranphu1():
+    return render_template("thanhdattranphu1.html")
+@app.route("/dGhhbmhkYXR0cmFucGh11/", methods=['GET'])
+def thanhdattranphu2():
+    return render_template("thanhdattranphu2.html")
+@app.route("/dGhhbmhkYXR0cmFucGh12/", methods=['GET'])
+def thanhdattranphu3():
+    return render_template("thanhdattranphu3.html")
+@app.route("/dGhhbmhkYXR0cmFucGh13/", methods=['GET'])
+def thanhdattranphu4():
+    return render_template("thanhdattranphu4.html")
+
+#----dochi
+
+@app.route("/ZG9jaGk=/", methods=['GET'])
+def dochi1():
+    return render_template("dochi1.html")
+
+#-----khoa24
+
+@app.route("/a2hvYTI0/", methods=['GET'])
+def khoa241():
+    return render_template("khoa241.html")
+
+#------le37
+
+@app.route("/bGUzNw==/", methods=['GET'])
+def le371():
+    return render_template("le371.html")
+@app.route("/bGUzNw==1/", methods=['GET'])
+def le372():
+    return render_template("le372.html")
+@app.route("/bGUzNw==2/", methods=['GET'])
+def le373():
+    return render_template("le373.html")
+
+#-----nguyenviettung
+
+@app.route("/bmd1eWVudmlldHR1bmc=/", methods=['GET'])
+def nguyenviettung1():
+    return render_template("nguyenviettung1.html")
+@app.route("/bmd1eWVudmlldHR1bmc=1/", methods=['GET'])
+def nguyenviettung2():
+    return render_template("nguyenviettung2.html")
+@app.route("/bmd1eWVudmlldHR1bmc=2/", methods=['GET'])
+def nguyenviettung3():
+    return render_template("nguyenviettung3.html")
+
+#----pokedung
+
+@app.route("/cG9rZWR1bmc=/", methods=['GET'])
+def pokedung1():
+    return render_template("pokedung1.html")
+@app.route("/cG9rZWR1bmc=1/", methods=['GET'])
+def pokedung2():
+    return render_template("pokedung2.html")
+@app.route("/cG9rZWR1bmc=2/", methods=['GET'])
+def pokedung3():
+    return render_template("pokedung3.html")
+@app.route("/cG9rZWR1bmc=3/", methods=['GET'])
+def pokedung4():
+    return render_template("pokedung4.html")
+
+#---FL.ShadowLege (lam dai tung)
+
+@app.route("/ZmxzaGFkb3dsZWdl/", methods=['GET'])
+def flshadowlege1():
+    return render_template("flshadowlege1.html")
+@app.route("/ZmxzaGFkb3dsZWdl1/", methods=['GET'])
+def flshadowlege2():
+    return render_template("flshadowlege2.html")
+@app.route("/ZmxzaGFkb3dsZWdl2/", methods=['GET'])
+def flshadowlege3():
+    return render_template("flshadowlege3.html")
+@app.route("/ZmxzaGFkb3dsZWdl3/", methods=['GET'])
+def flshadowlege4():
+    return render_template("flshadowlege4.html")
+
+#---------khiemdt
+
+@app.route("/a2hpZW1kdA==/", methods=['GET'])
+def khiemdt1():
+    return render_template("khiemdt1.html")
 
 if __name__ == '__main__':
    app.run()
