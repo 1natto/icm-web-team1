@@ -588,5 +588,15 @@ def flshadowlege4():
 def khiemdt1():
     return render_template("khiemdt1.html")
 
+#-------congduoc
+
+@app.route("/Y29uZ2R1b2M=/", methods=['GET'])
+def congduoc1():
+    return render_template("congduoc1.html")
+@app.route("/Y29uZ2R1b2M=1/", methods=['GET'])
+def congduoc2():
+    return render_template("congduoc2.html")
+
+
 if __name__ == '__main__':
    app.run()
