@@ -104,7 +104,9 @@
   }
   #ngocquang {
     font-size: 135%;
-    line-height: 140%;
+    line-height: 130%;
+    margin-left:8%;
+    margin-right:8%;
   }
   form {
     text-align:center;
