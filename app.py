@@ -597,6 +597,20 @@ def congduoc1():
 def congduoc2():
     return render_template("congduoc2.html")
 
+#----------nq
+
+@app.route("/NGxvaWNodWNjdWFucQ==/", methods=['GET'])
+def loichuccuanq1():
+    return render_template("loichuccuanq1.html")
+@app.route("/NGxvaWNodWNjdWFucQ==1/", methods=['GET'])
+def loichuccuanq2():
+    return render_template("loichuccuanq2.html")
+@app.route("/NGxvaWNodWNjdWFucQ==2/", methods=['GET'])
+def loichuccuanq3():
+    return render_template("loichuccuanq3.html")
+@app.route("/NGxvaWNodWNjdWFucQ==3/", methods=['GET'])
+def loichuccuanq4():
+    return render_template("loichuccuanq4.html")
 
 if __name__ == '__main__':
    app.run()
