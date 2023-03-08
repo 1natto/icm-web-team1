@@ -587,6 +587,15 @@ def flshadowlege4():
 @app.route("/a2hpZW1kdA==/", methods=['GET'])
 def khiemdt1():
     return render_template("khiemdt1.html")
+@app.route("/a2hpZW1kdA==1/", methods=['GET'])
+def khiemdt2():
+    return render_template("khiemdt2.html")
+@app.route("/a2hpZW1kdA==2/", methods=['GET'])
+def khiemdt3():
+    return render_template("khiemdt3.html")
+@app.route("/a2hpZW1kdA==3/", methods=['GET'])
+def khiemdt4():
+    return render_template("khiemdt4.html")
 
 #-------congduoc
 
